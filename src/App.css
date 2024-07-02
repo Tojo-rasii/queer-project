@@ -12,10 +12,6 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .Navbar header section article {
@@ -117,11 +113,7 @@
   height: 0;
   overflow: hidden;
   transition: height 0.2s;
-<<<<<<< HEAD
-  max-height:max-content;
-=======
   max-height: max-content;
->>>>>>> origin/dev
 }
 
 .modaleHome ul {
@@ -129,11 +121,7 @@
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-.nav-activebtn li{
-=======
 .nav-activebtn li {
->>>>>>> origin/dev
   background: #e51a3cd3 !important;
 }
 
@@ -170,10 +158,6 @@
 .d-none {
   height: 0%;
   transition: height 1s;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .modalSearch section {
@@ -222,10 +206,6 @@
 
 .modalSearch section article:nth-child(2) input:focus {
   border-bottom: 1.5px solid rgb(229, 26, 60);
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .modalSearch section article:nth-child(2) {
@@ -244,11 +224,7 @@
 
 /* HOME */
 .Home main section {
-<<<<<<< HEAD
-  background-image: url('./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg');
-=======
   background-image: url("./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg");
->>>>>>> origin/dev
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -343,16 +319,9 @@
   margin: 0.8em;
 }
 
-<<<<<<< HEAD
-
-/* HOME */
-.Podcast main section {
-  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
-=======
 /* HOME */
 .Podcast main section {
   background-image: url("https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg");
->>>>>>> origin/dev
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -362,10 +331,6 @@
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 .Podcast main section article {
   background: #0000006c;
   flex-grow: 2;
@@ -487,11 +452,7 @@
 }
 
 .Podcast footer div section {
-<<<<<<< HEAD
-  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
-=======
   background-image: url("https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg");
->>>>>>> origin/dev
 
   background-position: 50%;
 
@@ -507,10 +468,6 @@
   flex-direction: column;
   border-radius: 0.4em;
   box-shadow: 0 0 5px #00000039;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .Podcast footer div section article i {
@@ -521,10 +478,6 @@
   padding-inline: 0.6em;
   border-radius: 50%;
   box-shadow: 0 0 5px #00000040;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .Podcast footer div section article:nth-child(1) {
@@ -532,20 +485,12 @@
   padding-left: 1.1em;
   /* background: #00000040; */
   z-index: 9999;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 }
 
 .Podcast footer div section article:nth-child(2) {
   padding: 2.1em;
   padding-top: 3em;
-<<<<<<< HEAD
-  background: #Fff;
-=======
   background: #fff;
->>>>>>> origin/dev
   height: 15.5vw;
   max-height: max-content;
   margin-top: -1.5em;
@@ -571,11 +516,7 @@
 }
 
 .Forum aside section article picture::after {
-<<<<<<< HEAD
-  content: 'FAQ';
-=======
   content: "FAQ";
->>>>>>> origin/dev
   position: absolute;
   margin-left: -3.1em;
   margin-top: 1.3em;
@@ -622,11 +563,7 @@
   padding: 0.9em;
   font-size: 0.9em;
   border-radius: 0.2em;
-<<<<<<< HEAD
-  background-image: url('./asset/A-set-of-headphones-on-a-Pride-flag-f7ce6b33.webp');
-=======
   background-image: url("./asset/A-set-of-headphones-on-a-Pride-flag-f7ce6b33.webp");
->>>>>>> origin/dev
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
@@ -657,20 +594,12 @@
   background: rgba(0, 0, 255, 0.16);
 } */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 /* HELP */
 /* MAIN */
 
 /* HOME */
 .Help main section {
-<<<<<<< HEAD
-  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
-=======
   background-image: url("https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg");
->>>>>>> origin/dev
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -680,10 +609,6 @@
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
 .Help main section article {
   background: #0000006c;
   flex-grow: 2;
@@ -806,8 +731,4 @@
   border-radius: 50%;
   font-weight: bold;
   transition: background 0.2s;
-<<<<<<< HEAD
 } */
-=======
-} */
->>>>>>> origin/dev
