@@ -25,14 +25,14 @@ function Body_Home() {
           </article>
         </section>
       </main>
-      <main className="btn">
+      {/* <main className="btn">
         <button>
           <i className="bi-arrow-left"></i>
         </button>
         <button>
           <i className="bi-arrow-right"></i>
         </button>
-      </main>
+      </main> */}
       <button id="top" onClick={handleTop}>
         <i className={scrollTops ? "bi-chevron-up" : "bi-chevron-down"}></i>
       </button>
