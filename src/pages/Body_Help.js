@@ -17,14 +17,14 @@ function Body_Help() {
         <section>
           <article>
             <div>
-              <p>Queer Project / Pages</p>
+              <p>Here are some contacts you might find helpful.</p>
               <p>HELP</p>
             </div>
             <div>
               <p>
-                Help Page /{" "}
+                {/* Help Page /{" "} */}
                 <NavLink to="/" id="home" style={{ color: "#fff" }}>
-                  Home
+                 Back Home
                 </NavLink>
               </p>
             </div>
@@ -35,7 +35,7 @@ function Body_Help() {
       <aside>
         <section>
           <div>
-            <p>Still need help ?</p>
+            <p>You need help?</p>
           </div>
         </section>
         <section>
