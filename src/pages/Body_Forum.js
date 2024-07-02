@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Body_Forum() {
@@ -17,7 +17,7 @@ function Body_Forum() {
         <section>
           <article>
             <div>
-              <p>Queer Project / Pages</p>
+              <p>Queer Project</p>
               <p>FORUM</p>
             </div>
             <div>
