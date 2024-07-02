@@ -3,10 +3,15 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     const [modale, setModale] = useState(false);
+    const [modaleHome, setModaleHome] = useState(false);
 
 
     const handleSearch = () => {
         setModale(!modale)
+    }
+
+    const handleHover = () => {
+        setModaleHome(!modaleHome);
     }
 
     return (
@@ -35,21 +40,25 @@ function Navbar() {
                 <section>
                     <article>
                         <picture>
-                            <p>Queer Project</p>
+                            <NavLink to="/"><p>Queer Project</p></NavLink>
                         </picture>
                     </article>
                     <article>
 
-                        <NavLink to="/">
-                            <p>Home</p>
-                        </NavLink>
-                        <NavLink to="/Podcast">
+                        <p onClick={handleHover} style={modaleHome ? { color: '#e51a3c' } : { color: '#fff' }}>{modaleHome ? 'Home' : 'Home'}</p>
+                        <div className='modaleHome' style={modaleHome ? { opacity: '1', height: '139%' } : { height: '0', opacity: '0' }}>
+                            <ul>
+                                <NavLink to='/' className={(nav) => (nav.isActive ? "nav-activebtn" : "")}><li><p>Home</p></li></NavLink>
+                                <li><p>About</p></li>
+                            </ul>
+                        </div>
+                        <NavLink className={(nav) => (nav.isActive ? "nav-active" : "")} to="/Podcast">
                             <p>Podcast</p>
                         </NavLink>
-                        <NavLink to="/Forum">
+                        <NavLink className={(nav) => (nav.isActive ? "nav-active" : "")} to="/Forum">
                             <p>Forum</p>
                         </NavLink>
-                        <NavLink to="/Help">
+                        <NavLink className={(nav) => (nav.isActive ? "nav-active" : "")} to="/Help">
                             <p>Help</p>
                         </NavLink>
 
@@ -60,7 +69,7 @@ function Navbar() {
                     </article>
                 </section>
             </header>
-            <nav className='modalSearch' style={modale ? { height: '40%' } :{ height: '0%' } }>
+            <nav className='modalSearch' style={modale ? { height: '40%' } : { height: '0%' }}>
                 <section>
                     <article>
                         <p>Queer project</p>

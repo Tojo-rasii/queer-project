@@ -26,7 +26,7 @@ function Body_Home() {
                         <div>
                             <p>Lorem, ipsum.lorem2 Lorem, ipsum.</p>
                             <p>Lorem ipsum dolor sit amet Lorem, ipsum.</p>
-                            <button>Lorem, ipsum.</button>
+                            <button>DISCOVER MORE</button>
                         </div>
                     </article>
                 </section>
