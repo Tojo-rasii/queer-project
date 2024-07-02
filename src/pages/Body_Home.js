@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from 'react-router-dom'
 
 function Body_Home() {
   const [scrollTops, setScrollTops] = useState(false);
@@ -17,7 +18,9 @@ function Body_Home() {
             <div>
               <p>Because love is for everyone.</p>
               <p>Be proud, be yourself.</p>
-              <button>DISCOVER MORE</button>
+              <NavLink to="/About">
+                <button>DISCOVER MORE</button>
+              </NavLink>
             </div>
           </article>
         </section>

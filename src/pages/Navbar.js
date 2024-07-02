@@ -68,9 +68,14 @@ function Navbar() {
                     <p>Home</p>
                   </li>
                 </NavLink>
-                <li>
-                  <p>About</p>
-                </li>
+                <NavLink
+                  to="/About"
+                  className={(nav) => (nav.isActive ? "nav-activebtn" : "")}
+                >
+                  <li>
+                    <p>About</p>
+                  </li>
+                </NavLink>
               </ul>
             </div>
             <NavLink
