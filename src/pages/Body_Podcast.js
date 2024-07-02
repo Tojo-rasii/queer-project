@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Body_Podcast() {
@@ -45,8 +45,11 @@ function Body_Podcast() {
           </article>
           <article>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
-              dolorum. Distinctio illo dolor nulla a?
+              This topics is an audio or video program that explores issues,
+              stories, and discussions relevant to the LGBT community. These
+              podcasts aim to educate, inform, and provide a sense of community
+              for listeners who identify as LGBT or who are interested in
+              learning more about LGBT issues.
             </p>
           </article>
           <article>
