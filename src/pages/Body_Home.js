@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Body_Home() {
 
@@ -26,7 +27,9 @@ function Body_Home() {
                         <div>
                             <p>Lorem, ipsum.lorem2 Lorem, ipsum.</p>
                             <p>Lorem ipsum dolor sit amet Lorem, ipsum.</p>
+                            <NavLink to="/About">
                             <button>DISCOVER MORE</button>
+                            </NavLink>
                         </div>
                     </article>
                 </section>

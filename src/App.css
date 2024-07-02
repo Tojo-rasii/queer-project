@@ -227,7 +227,7 @@
 
 /* HOME */
 .Home main section {
-  background-image: url('./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg');
+  background-image: url('https://img.freepik.com/free-photo/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand_23-2148126931.jpg?t=st=1719918224~exp=1719921824~hmac=4dd6892cf2f4bf255cee1af052d38646e2882edd443be50f7102bc6f4b4113ff&w=740');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -742,3 +742,50 @@
   font-weight: bold;
   transition: background 0.2s;
 } */
+
+/* ABOUT */
+.About main section{
+  height: 65vh;
+}
+.About footer{
+  margin-top: 0;
+  /* background: red; */
+  padding: 2em;
+  width: 100%;
+  margin: 0 auto;
+}
+.About footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 3;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.About footer div section{
+  width: 35vw;
+  overflow: hidden;
+}
+.About footer div section article {
+  padding: 2.1em;
+  padding-top: 0 !important;
+  margin-top: 15em;
+  background: #Fff;
+  height: max-content;
+  max-height: max-content;
+  flex-shrink: 0;
+  flex-grow: 2;
+  /* z-index: -2; */
+}
+
+.About footer div section article p:nth-child(1) {
+  font-weight: 600;
+  margin: 0.8em;
+  margin-left: 0;
+  font-size: 1.3em;
+}
+
+.About footer div section article p:nth-child(2) {
+  font-size: 0.9em;
+}

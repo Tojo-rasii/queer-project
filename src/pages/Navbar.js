@@ -49,7 +49,7 @@ function Navbar() {
                         <div className='modaleHome' style={modaleHome ? { opacity: '1', height: '139%' } : { height: '0', opacity: '0' }}>
                             <ul>
                                 <NavLink to='/' className={(nav) => (nav.isActive ? "nav-activebtn" : "")}><li><p>Home</p></li></NavLink>
-                                <li><p>About</p></li>
+                                <NavLink to='/about' className={(nav) => (nav.isActive ? "nav-activebtn" : "")}><li><p>About</p></li></NavLink>
                             </ul>
                         </div>
                         <NavLink className={(nav) => (nav.isActive ? "nav-active" : "")} to="/Podcast">
