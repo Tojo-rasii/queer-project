@@ -44,7 +44,7 @@ function Body_Forum() {
             </picture>
           </article>
           <article>
-            <p>What does “coming out” mean?</p>
+            <p>FORUM</p>
           </article>
           <article>
             {/* <i className="bi-mic"></i>
@@ -57,7 +57,7 @@ function Body_Forum() {
         <section>
           {/* <article> */}
           <div>
-            <u>Forum</u>
+            <u>What does it mean coming out?</u>
           </div>
           <p>
             “Coming out” refers to the process of revealing one`s sexual

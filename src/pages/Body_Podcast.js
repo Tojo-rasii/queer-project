@@ -63,8 +63,8 @@ function Body_Podcast() {
               <i className="bi-mic"></i>
             </article>
             <article>
-              <p>coming out </p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Coming out </p>
+              <p>People who share their experience as theirself on family</p>
             </article>
           </section>
           <section>
@@ -72,8 +72,8 @@ function Body_Podcast() {
               <i className="bi-mic"></i>
             </article>
             <article>
-              <p>Sexual orientation and gender identity</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Sexual orientation</p>
+              <p>People who share their sexual orientation as theirself</p>
             </article>
           </section>
           <section>
@@ -82,7 +82,7 @@ function Body_Podcast() {
             </article>
             <article>
               <p>Queer in sports</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>People who share their experience as theirself in sports</p>
             </article>
           </section>
           <section>
@@ -91,7 +91,7 @@ function Body_Podcast() {
             </article>
             <article>
               <p>Queer at work</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>People who share their experience as herself at work</p>
             </article>
           </section>
         </div>
