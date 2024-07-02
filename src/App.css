@@ -1,0 +1,744 @@
+.Navbar header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 999;
+}
+
+.Navbar header section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+
+.Navbar header section article {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar header section article div {
+  display: flex;
+  flex-direction: row;
+}
+
+/* SECTION */
+.Navbar header section:nth-child(1) {
+  background: #1c1c1c;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 8em;
+  display: none;
+}
+
+.Navbar header section:nth-child(1) article {
+  padding: 0.6em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+}
+
+.Navbar header section:nth-child(1) article:nth-child(1) div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7em;
+  color: silver;
+}
+
+.Navbar header section:nth-child(1) article:nth-child(1) div p {
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Navbar header section:nth-child(1) article:nth-child(1) div p:hover {
+  color: #fff;
+}
+
+.Navbar header section:nth-child(1) article:nth-child(1) div i {
+  color: rgb(229, 26, 60);
+}
+
+.Navbar header section:nth-child(1) article:nth-child(2) div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.Navbar header section:nth-child(2) {
+  padding: 1.3em;
+  background: #00000086;
+}
+
+.Navbar header section:nth-child(2) article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3em;
+}
+
+.Navbar header section:nth-child(2) article picture p {
+  font-size: 1.8em;
+}
+
+.Navbar header section:nth-child(2) article p {
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Navbar header section:nth-child(2) article i {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+/* MODAL HOVER HOME */
+.modaleHome {
+  position: absolute;
+  top: 100%;
+  z-index: 9999;
+  background: #1c1c1c;
+  color: #fff;
+  border-top: 3px solid #e51a3c;
+  width: 15vw;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s;
+  max-height:max-content;
+}
+
+.modaleHome ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-activebtn li{
+  background: #e51a3cd3 !important;
+}
+
+.modaleHome ul li {
+  background: #1c1c1ce6;
+  padding: 1em;
+  cursor: pointer;
+  width: 100vw;
+}
+
+.modaleHome ul li:hover {
+  background: #303030;
+  padding: 1em;
+}
+.modaleHome ul li:active {
+  background: rgb(229, 26, 60);
+  color: #fff;
+}
+
+/* MODAL SEARCH */
+.modalSearch {
+  position: fixed;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  top: 0;
+  z-index: 999;
+  /* padding: 1em; */
+  height: 40%;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.d-none {
+  height: 0%;
+  transition: height 1s;
+
+}
+
+.modalSearch section {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  margin-top: 2em;
+}
+
+.modalSearch section article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22em;
+}
+
+.modalSearch section article:nth-child(1) {
+  margin-inline: 5.3em;
+}
+
+.modalSearch section article:nth-child(1) p {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.modalSearch section article:nth-child(1) i {
+  font-size: 2.5em;
+  color: rgba(192, 192, 192, 0.711);
+  cursor: pointer;
+}
+
+.modalSearch section article:nth-child(2) input {
+  font-size: 1.5em;
+  background: none;
+  padding: 0.8em;
+  width: 85vw;
+  border: none;
+  border-bottom: 1.5px solid #404040;
+  padding-right: 2em;
+  padding-left: 0;
+  color: #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+.modalSearch section article:nth-child(2) input:focus {
+  border-bottom: 1.5px solid rgb(229, 26, 60);
+
+}
+
+.modalSearch section article:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 0;
+  margin: 0 auto;
+}
+
+.modalSearch section article:nth-child(2) i {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-left: -1.2em;
+}
+
+/* HOME */
+.Home main section {
+  background-image: url('./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-position-y: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  /* animation: animate 50s normal infinite; */
+}
+
+/* @keyframes animate{
+  0%{
+    background-image: url('./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg');
+  }
+  50%{
+    background-image: url('./asset/couple-gay-qui-dure.webp');
+  }
+  100%{
+    background-image: url('./asset/smiling-portrait-young-lesbian-couple-holding-rainbow-flag-hand.jpg');
+  }
+} */
+
+.Home main section article {
+  background: #0000006c;
+  flex-grow: 2;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 1em;
+}
+
+.Home main section article div {
+  margin: 5em;
+  margin-top: 12.5em;
+  color: #fff;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.Home main section article div p:nth-child(1) {
+  font-size: 1.3em;
+}
+
+.Home main section article div p:nth-child(2) {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+
+.Home main section article button {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 16vw;
+  padding: 1.4em;
+  background: rgb(229, 26, 60);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2em;
+  transition: 0.4s;
+}
+
+.Home main section article button:hover {
+  background: #fff;
+  color: rgb(229, 26, 60);
+}
+
+/* NEXT PREV */
+.btn {
+  position: absolute;
+  right: 0;
+  margin-top: -3.7em;
+  margin-right: 1em;
+}
+
+.btn button {
+  padding: 0.5em;
+  border: none;
+  outline: none;
+}
+
+.btn button:nth-child(1) {
+  background: rgb(229, 26, 60);
+  color: #fff;
+}
+
+.btn button i {
+  font-size: 2em;
+  margin: 0.8em;
+}
+
+
+/* HOME */
+.Podcast main section {
+  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-position-y: center;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+
+.Podcast main section article {
+  background: #0000006c;
+  flex-grow: 2;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 33.5em;
+  padding-inline-end: 0;
+}
+
+.Podcast main section article div {
+  margin: 5em;
+  margin-top: 6em;
+  color: #fff;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.Podcast main section article div p:nth-child(1) {
+  font-size: 1.3em;
+}
+
+.Podcast main section article div p:nth-child(2) {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+
+.Podcast main section article button {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 16vw;
+  padding: 1.4em;
+  background: rgb(229, 26, 60);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2em;
+  transition: 0.4s;
+}
+
+.Podcast main section article button:hover {
+  background: #fff;
+  color: rgb(229, 26, 60);
+}
+
+/* Aside */
+
+.Podcast aside {
+  background: #fff;
+  width: max-content;
+  margin: -4.5em auto;
+  padding: 1.5em;
+  padding-inline: 1.8em;
+}
+
+.Podcast aside section {
+  display: flex;
+  flex-wrap: row;
+  align-items: center;
+  gap: 2.5em;
+}
+
+.Podcast aside section article picture img {
+  width: 8em;
+  height: 5em;
+  object-fit: cover;
+}
+
+.Podcast aside section article:nth-child(2) {
+  width: 30vw;
+  font-size: 1em;
+}
+
+.Podcast aside section article:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.Podcast aside section article i {
+  font-size: 1.8em;
+  background: #ebebeb;
+  padding: 0.2em;
+  padding-inline: 0.4em;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.Podcast aside section article i:hover {
+  background: #e1e1e1;
+}
+
+.Podcast aside section article i:active {
+  outline: 1px solid #1c1c1c34;
+}
+
+/* FOOTER PODCAST */
+.Podcast footer {
+  margin-top: 8em;
+  width: 100%;
+}
+
+.Podcast footer div {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+.Podcast footer div section {
+  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
+
+  background-position: 50%;
+
+  background-position-x: center;
+
+  background-size: cover;
+
+  background-attachment: local;
+  /* background: #fff; */
+  cursor: pointer;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4em;
+  box-shadow: 0 0 5px #00000039;
+
+}
+
+.Podcast footer div section article i {
+  font-size: 2.6em;
+  background: #fff;
+  color: rgb(229, 26, 60);
+  padding: 0.4em;
+  padding-inline: 0.6em;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #00000040;
+
+}
+
+.Podcast footer div section article:nth-child(1) {
+  padding-top: 10em;
+  padding-left: 1.1em;
+  /* background: #00000040; */
+  z-index: 9999;
+
+}
+
+.Podcast footer div section article:nth-child(2) {
+  padding: 2.1em;
+  padding-top: 3em;
+  background: #Fff;
+  height: 15.5vw;
+  max-height: max-content;
+  margin-top: -1.5em;
+}
+
+.Podcast footer div section article:nth-child(2) p:nth-child(1) {
+  font-weight: 600;
+  margin: 0.8em;
+  margin-left: 0;
+  font-size: 1.3em;
+}
+
+.Podcast footer div section article:nth-child(2) p:nth-child(2) {
+  font-size: 0.9em;
+}
+
+/* FORUM */
+.Forum aside section article picture img {
+  width: 8em !important;
+  height: 8em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Forum aside section article picture::after {
+  content: 'FAQ';
+  position: absolute;
+  margin-left: -3.1em;
+  margin-top: 1.3em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 2px #0000008d;
+  letter-spacing: 0.2em;
+}
+
+.Forum aside section article:nth-child(2) {
+  width: 30vw;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.Forum footer {
+  width: 100%;
+}
+
+.Forum footer section {
+  background: #fff;
+  margin: 5em;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  align-items: center;
+}
+
+.Forum footer section article {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  width: 90%;
+  word-break: keep-all;
+  max-width: max-content;
+  font-size: 1.2em;
+}
+
+.Forum footer section article p {
+  width: 95%;
+  word-break: keep-all;
+  padding: 0.9em;
+  font-size: 0.9em;
+  border-radius: 0.2em;
+  background-image: url('./asset/A-set-of-headphones-on-a-Pride-flag-f7ce6b33.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  background-position-x: center;
+  background-attachment: fixed;
+  color: #fff;
+
+  filter: brightness(78%);
+}
+
+.Forum footer section article u {
+  margin-top: 0.6em;
+}
+
+/* .Forum footer section article:nth-child(1) p{
+  background: rgba(255, 0, 0, 0.267);
+}
+.Forum footer section article:nth-child(2) p{
+  background: rgba(255, 166, 0, 0.345);
+}
+.Forum footer section article:nth-child(3) p{
+  background: rgba(255, 255, 0, 0.382);
+}
+.Forum footer section article:nth-child(4) p{
+  background: rgba(0, 128, 0, 0.246);
+}
+.Forum footer section article:nth-child(5) p{
+  background: rgba(0, 0, 255, 0.16);
+} */
+
+
+/* HELP */
+/* MAIN */
+
+/* HOME */
+.Help main section {
+  background-image: url('https://cdn.britannica.com/89/183089-050-E869DBE2/Silhouettes-People-Holding-Gay-Pride-Symbol-Flag.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-position-y: center;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+
+.Help main section article {
+  background: #0000006c;
+  flex-grow: 2;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 33.5em;
+  padding-inline-end: 0;
+}
+
+.Help main section article div {
+  margin: 5em;
+  margin-top: 4em;
+  color: #fff;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.Help main section article div p:nth-child(1) {
+  font-size: 1.3em;
+}
+
+.Help main section article div p:nth-child(2) {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+
+/* Aside */
+.Help aside {
+  background: #fff;
+  width: 95%;
+  margin: -5.5em auto;
+  padding: 2.5em;
+  margin-bottom: 3em;
+  padding-bottom: 5em;
+  border-radius: 0.3em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.Help aside section:nth-child(1) div p {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.Help aside section {
+  display: flex;
+  flex-wrap: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.5em;
+}
+
+.Help aside section article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 3em;
+  background: #ededed71;
+  padding: 5em;
+  padding-top: 4em;
+}
+
+.Help aside section article picture i {
+  font-size: 3em;
+  color: rgb(229, 26, 60);
+  background: #fff;
+  padding: 0.4em;
+  padding-inline: 0.6em;
+  border-radius: 50%;
+}
+
+.Help aside section article p {
+  cursor: default;
+  color: #404040;
+  transform-origin: 50% 50%;
+  transition: 0.2s;
+}
+
+.Help aside section article p:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #5d5d5d;
+}
+
+.Help aside section article div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2em;
+}
+
+.Help aside section article div p:nth-child(1) {
+  font-size: 2em;
+  /* font-weight: 600; */
+  color: currentColor;
+}
+
+.Help aside section article p:nth-child(1):hover {
+  text-decoration: none;
+}
+
+.Help aside section article p i {
+  color: #404040;
+}
+
+/* .Help aside section article i {
+  font-size: 1.8em;
+  background: #ebebeb;
+  padding: 0.2em;
+  padding-inline: 0.4em;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background 0.2s;
+} */
